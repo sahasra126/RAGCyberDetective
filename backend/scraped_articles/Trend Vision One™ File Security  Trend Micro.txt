@@ -1,0 +1,5 @@
+Title: Trend Vision One™ File Security | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/products/hybrid-cloud/cloud-one-file-storage-security.html
+Published Date: None
+
+Cloud-native applications rely primarily on cloud file/object services as part of their workflow, facilitating new attack vectors. Detect and remediate malware with protection that integrates into your customer workflows with support across all applications.

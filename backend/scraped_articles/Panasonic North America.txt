@@ -1,0 +1,7 @@
+Title: Panasonic North America
+URL: https://www.trendmicro.com/en_in/about/customer-stories/panasonic-north-america.html
+Published Date: None
+
+From a visibility perspective, almost every company out there has their traditional sandbox, platform that allows you to ingest data from different endpoints but the difference is the XDR platform allowed us to connect our endpoints, connect our network sensors and email CAS (Cloud App Security) application where you can look at the threats from different layers and respond to it. Not only visualise it but also take action.
+
+Without jumping border to talk to email support individuals and endpoint support team, the security team will have a single screen giving them visibility and command and control.

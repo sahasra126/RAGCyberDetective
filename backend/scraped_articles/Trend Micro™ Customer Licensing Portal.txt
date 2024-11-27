@@ -1,0 +1,7 @@
+Title: Trend Micro™ Customer Licensing Portal
+URL: https://tm.login.trendmicro.com/simplesaml/saml2/idp/SSOService.php
+Published Date: None
+
+Easily activate and register security products and services from the extensive Trend Micro product line.
+
+Access all your Trend Micro security products and services from a central location online.

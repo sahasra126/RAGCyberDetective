@@ -1,0 +1,5 @@
+Title: Secure Your Cloud-Native Applications | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/solutions/challenges/cloud-native-applications.html
+Published Date: None
+
+Security should be defined as code just like the rest of a cloud-native application. Delivery of security code, policy, response, and visibility can all be controlled through APIs in the same way developers deliver functionality for the applications they build.

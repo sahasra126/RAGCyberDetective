@@ -1,0 +1,35 @@
+Title: Zero Day Initiative
+URL: https://www.zerodayinitiative.com/about/
+Published Date: None
+
+Incorporating the global community of independent researchers also augments our internal research organizations with the additional zero-day research and exploit intelligence. This approach coalesced with the formation of the ZDI, launched on July 25, 2005. The main goals of the ZDI are to:
+
+The Zero Day Initiative (ZDI) was created to encourage the reporting of 0-day vulnerabilities privately to the affected vendors by financially rewarding researchers. At the time, there was a perception by some in the information security industry that those who find vulnerabilities are malicious hackers looking to do harm. Some still feel that way. While skilled, malicious attackers do exist, they remain a small minority of the total number of people who actually discover new flaws in software.
+
+Amplify the effectiveness of our team
+
+by creating a virtual community of
+
+skilled researchers. Encourage the responsible reporting
+
+of zero-day vulnerabilities through
+
+financial incentives. Protect Trend Micro customers from harm
+
+until the affected vendor is able to deploy a
+
+patch.
+
+Today, the ZDI represents the world’s largest vendor-agnostic bug bounty program. Our approach to the acquisition of vulnerability information is different than other programs. No technical details concerning the vulnerability are sent out publicly until the vendor has released a patch.
+
+We do not resell or redistribute the vulnerabilities that are acquired through the ZDI.
+
+Submitting through the ZDI program also relieves you from the burden of tracking the bug with the vendor. We make every effort to work with vendors to ensure they understand the technical details and severity of a reported security flaw, which leaves researchers free to go find other bugs. We will let you know where things stand with all of your own current cases with regards to vendor disclosure. In no cases will an acquired vulnerability be "kept quiet" because a product vendor does not wish to address it.
+
+Interested researchers provide us with exclusive information about previously un-patched vulnerabilities they have discovered. The ZDI then collects background information in order to validate the identity of the researcher strictly for ethical and financial oversight. Our internal researchers and analysts validate the issue in our security labs and make a monetary offer to the researcher. If the researcher accepts the offer, a payment will be promptly made. As a researcher discovers and provides additional vulnerability research, bonuses and rewards can increase through a loyalty program similar to a frequent flier program.
+
+After an agreement has been reached for the acquisition of a researcher's bug report, protection filters for Trend Micro customers are developed and deployed. Simultaneously, the ZDI notifies the affected vendor so that they can develop a vulnerability patch. The ZDI discloses any and all acquired vulnerabilities to product vendors in accordance with our disclosure policy. This disclosure policy ensures that both researchers and product vendors understand how ZDI handles vulnerability information. This policy further reassures researchers that in no case will any of their discoveries be "swept under the rug". It also reassures product vendors that there is a professional and standard set of guidelines they can expect to be utilized throughout the disclosure process.
+
+Once a patch is ready from the affected vendor, the ZDI works collaboratively with the vendor to notify the public of the vulnerability through a joint advisory that provides full credit to the originating researcher, unless the researcher chooses to remain anonymous. Before public disclosure of the vulnerability, we may choose to share technical details of the vulnerability with other security vendors so they too may prepare an appropriate security response for their customers. This practice allows us to facilitate the protection of a customer base larger than our own.
+
+In order to maintain the secrecy of a researcher's vulnerability discovery until a product vendor can develop a patch, Trend Micro customers are only given a generic description of the filter provided, not the vulnerability itself. Once details are made public in coordination with the product vendor, an updated description is made public so our customers can identify the appropriate filters that were protecting them. In other words, while our customers will be protected from the vulnerability in advance, they will not be able to discern the vulnerability itself.

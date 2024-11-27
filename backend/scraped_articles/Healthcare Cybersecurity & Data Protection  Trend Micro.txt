@@ -1,0 +1,7 @@
+Title: Healthcare Cybersecurity & Data Protection | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/capabilities/solutions-for/healthcare.html
+Published Date: None
+
+Targeted attacks on ePHI have become more common in recent years. With our Network Defence solutions, you can uncover targeted attacks designed to evade detection and stop spear phishing attacks and social engineering techniques. Our solutions identify advanced malware, suspicious inbound, outbound, and internal network activity, attacker behavior and deliver custom sandbox analysis to detect advanced malware.
+
+Learn more about our Network Defence solutions

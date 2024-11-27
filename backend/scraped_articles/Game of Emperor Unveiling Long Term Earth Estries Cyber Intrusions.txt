@@ -1,0 +1,35 @@
+Title: Game of Emperor: Unveiling Long Term Earth Estries Cyber Intrusions
+URL: https://www.trendmicro.com/en_in/research/24/k/earth-estries.html
+Published Date: 2024-11-25 00:00:00
+
+Summary
+
+
+
+Earth Estries, a Chinese APT group, has primarily targeted critical sectors like telecommunications and government entities across the US, Asia-Pacific, Middle East, and South Africa since 2023.
+
+The group employs advanced attack techniques and multiple backdoors, such as GHOSTSPIDER, SNAPPYBEE, and MASOL RAT, affecting several Southeast Asian telecommunications companies and government entities.
+
+Earth Estries exploits public-facing server vulnerabilities to establish initial access and uses living-off-the-land binaries for lateral movement within networks to deploy malware and conduct long-term espionage.
+
+The group has compromised over 20 organisations, targeting various sectors including telecommunications, technology, consulting, chemical, and transportation industries, as well as government agencies and NGOs in numerous countries.
+
+Earth Estries uses a complex C&C infrastructure managed by different teams, and their operations often overlap with TTPs of other known Chinese APT groups, indicating possible use of shared tools from malware-as-a-service providers.
+
+Since 2023, Earth Estries (aka Salt Typhoon, FamousSparrow, GhostEmperor and UNC2286) has emerged as one of the most aggressive Chinese advanced persistent threat (APT) groups, primarily targeting critical industries such as telecommunications and government entities in the US, the Asia-Pacific region, the Middle East, and South Africa. In this blog entry, we will highlight their evolving attack techniques and analyse the motivation behind their operations, providing insights into their long-term targeted attacks.
+
+A key finding from our recent investigation is the discovery of a new backdoor, GHOSTSPIDER, identified during attacks on Southeast Asian telecommunications companies. We will explore the technical details of GHOSTSPIDER, its impact across multiple countries, and interesting findings when we were tracking its command-and-control (C&C) infrastructure. We have also uncovered the group’s use of the modular backdoor SNAPPYBEE (aka Deed RAT), another tool shared amongst Chinese APT groups.
+
+Furthermore, we discovered that Earth Estries uses another cross-platform backdoor, which we initially identified during our investigation of Southeast Asian government incidents in 2020. We named it MASOL RAT based on its PDB string. We couldn’t link MASOL RAT to any known threat group at the time due to limited information. However, this year we observed that Earth Estries has been deploying MASOL RAT on Linux devices targeting Southeast Asian government networks. More details about MASOL RAT will be provided in this blog entry.
+
+Recently, we also noticed that Microsoft has tracked the APT groups FamousSparrow and GhostEmperor under the name Salt Typhoon. However, we don’t have sufficient evidence that Earth Estries is related to the recent news of a recent Salt Typhoon cyberattack, as we have not seen a more detailed report on Salt Typhoon. Currently, we can only confirm that some of Earth Estries’ tactics, techniques, and procedures (TTPs) overlap with that of FamousSparrow and GhostEmperor.
+
+Motivation
+
+We have observed that Earth Esties has been conducting prolonged attacks targeting governments and internet service providers since 2020. In mid-2022, we noticed that the attackers also started targeting service providers for governments and telecommunications companies. For example, we found that in 2023, the attackers had also targeted consulting firms and NGOs that work with the U.S. federal government and military. The attackers use this approach to gather intelligence more efficiently and to attack their primary targets more quickly.
+
+Notably, we observed that attackers targeted not only critical services (like database servers and cloud servers) used by the telecommunications company, but also their vendor network. We found that they implanted the DEMODEX rootkit on vendor machines. This vendor is a primary contractor for the region’s main telecommunications provider, and we believe that attackers use this approach to facilitate access to more targets.
+
+Victimology
+
+We found that Earth Estries successfully compromised more than 20 organisations in areas that include the telecommunications, technology, consulting, chemical, and transportation industries, government agencies, and non-profit organisations (NGOs). Victims also came from numerous countries, including:

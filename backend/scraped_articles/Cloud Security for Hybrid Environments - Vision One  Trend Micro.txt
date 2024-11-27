@@ -1,0 +1,5 @@
+Title: Cloud Security for Hybrid Environments - Vision One | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/products/hybrid-cloud.html
+Published Date: None
+
+"We’ve always been impressed with how easy Trend solutions have been to deploy, as well as the tight integration with AWS workloads. Thanks to that close integration, our customers can spin up a new AWS account and the automation is in place to protect it quickly—that’s the real strength of working with Trend as a platform security provider."

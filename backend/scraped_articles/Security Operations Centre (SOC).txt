@@ -1,0 +1,5 @@
+Title: Security Operations Centre (SOC)
+URL: https://www.trendmicro.com/en_in/business/solutions/role/cloud-operations.html
+Published Date: None
+
+Not all cloud solutions are created equal. As you are evaluating your transition to the cloud or cloud security tools, consider the benefits of a solution that delivers ROI beyond the traditional benefits. Trend commissioned Forrester Consulting to quantify the projected value of Trend Cloud One™.

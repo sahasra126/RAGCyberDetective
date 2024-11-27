@@ -1,0 +1,5 @@
+Title: XDR - Award-Winning Single Platform Security | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/products/detection-response/xdr.html
+Published Date: None
+
+"Within Trend Vision One, the Risk Index is one of the key things I look at every day. I use the executive dashboards every day, and if there are any XDR detections, I can just click and drill into it and share the reporting with our executive team."

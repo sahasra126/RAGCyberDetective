@@ -1,0 +1,7 @@
+Title: Incident Response - Cybersecurity Planning | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/services/incident-response.html
+Published Date: None
+
+Maintaining an in-house IR team with the skills, training, and time to manage breaches can seem impossible. The expanding digital attack surface, evolving threats, and the complexity of cloud environments only add to the challenge.
+
+Trend’s Incident Response team correlates alerts from multiple sources to rapidly identify a breach’s point of origin. Threat researchers enhance automated root cause analysis (RCA) and package their findings along with a remediation plan for step-by-step guided response.

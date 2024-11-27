@@ -1,0 +1,5 @@
+Title: Faster XDR Detection and Response | Trend Micro
+URL: https://www.trendmicro.com/en_in/business/solutions/challenges/detection-response.html
+Published Date: None
+
+You have security tools and technologies in place, but you still have significant gaps in what you can see and do. Too many security teams invest in a collection of siloed detection solutions that don't work well together, creating more problems instead of solving them.
