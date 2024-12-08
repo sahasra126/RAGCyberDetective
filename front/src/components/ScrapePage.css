@@ -1,0 +1,101 @@
+/* General container style */
+.container {
+  max-width: 1200px; /* Increased container width */
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading Style */
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Form style */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  max-width: 600px; /* Maximum width for the form */
+}
+
+/* Input field style */
+input {
+  padding: 18px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%; /* Full width of the form container */
+  max-width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  margin: 0 auto; /* Centers the input horizontally */
+}
+
+/* Input field focus style */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Style */
+button {
+  padding: 18px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width of the form container */
+  max-width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff0000;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input, button {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}

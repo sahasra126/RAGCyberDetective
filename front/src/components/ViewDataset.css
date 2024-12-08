@@ -1,0 +1,40 @@
+.dataset-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightblue; /* Optional: For the background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .dataset-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no extra space between table borders */
+    text-align: left;
+  }
+  
+  .dataset-table th, .dataset-table td {
+    padding: 10px; /* Reduced padding for less spacing */
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    white-space: normal; /* Forces wrapping */
+    max-width: 250px; /* Adjust as needed */
+    vertical-align: top; /* Align text to the top */
+  }
+  
+  .dataset-table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .dataset-table td {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .dataset-table th, .dataset-table td {
+      font-size: 12px; /* Reduces font size for smaller screens */
+    }
+  }

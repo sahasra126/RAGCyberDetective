@@ -1,0 +1,39 @@
+.ml-model-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+  }
+  
+  .ml-model-page h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4CAF50; /* Heading color */
+  }
+  
+  .ml-model-page button {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #28a745; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 250px; /* Uniform width for buttons */
+    margin-bottom: 20px; /* Adds space between buttons */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for buttons */
+  }
+  
+  .ml-model-page button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Button lift effect */
+  }
+  
+  .ml-model-page button:active {
+    transform: translateY(2px); /* Button press effect */
+  }
+  
