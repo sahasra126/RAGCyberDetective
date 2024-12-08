@@ -1,5 +1,0 @@
-Title: Industrial Network Security (ICS) | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/products/iot/industrial-network-security.html
-Published Date: None
-
-Deploy a transparent network security device in front of uplink port of existing L2 network switches, enabling secure network segmentation by firewall and protocol filter without changing logical network configuration.

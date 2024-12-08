@@ -1,0 +1,2 @@
+backend/qamodel/model.safetensors filter=lfs diff=lfs merge=lfs -text
+backend/qamodel/model.safetensors.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,7 +1,0 @@
-Title: Zero Trust Secure Access | Trend Micro Vision One
-URL: https://www.trendmicro.com/en_in/business/products/network/zero-trust-secure-access.html
-Published Date: None
-
-Integrate attack surface risk management (ASRM), extended detection and response (XDR), and Secure Access (ZTSA) in a cloud-native platform. Enrich continuous adaptive risk and trust assessment to drive zero-trust architectures that support business objectives. Eliminate the inherent trust formerly placed upon unverified users and devices.
-
-Gain visibility through all user and device behaviors.

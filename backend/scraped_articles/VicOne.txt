@@ -1,9 +1,0 @@
-Title: VicOne
-URL: https://vicone.com/en
-Published Date: None
-
-Blog
-
-GenAI Takes the Wheel: Can Automotive Cybersecurity Keep Up?
-
-Qualcomm has taken a significant step toward bringing GenAI to vehicles by integrating its next-generation Oryon processor into in-car systems. We explore the technology powering GenAI, highlighting what makes it so transformative — and the security challenges it introduces.

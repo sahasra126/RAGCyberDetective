@@ -1,9 +1,0 @@
-Title: Weatherford Independent School District
-URL: https://www.trendmicro.com/en_in/about/customer-stories/weatherford-independent-school-district.html
-Published Date: None
-
-The Operations Dashboard within Trend Vision One breaks down huge amounts of data into specific areas, enabling Lee and his team to concentrate their attention on tasks that will make the biggest improvement in the district’s security position. “Trend Vision One allows me to operate much more efficiently with a much smaller team,” says Lee.
-
-With our Endpoint Security solution, Lee has gained actionable information on data never before available to him. “I’m now getting feedback from the network sensors all the way to the endpoint sensors, each of which are analysing every little bit of data that’s going in and out and allowing us to customise and tighten our controls,” says Lee.
-
-ZTSA also helps the district maintain secure access to essential data. “We’ve got to enable people access to data so they can do their jobs, and ZTSA has been a revolution,” says Lee. “I worry less about where people are in the network because I’ve got their machine and any data being transmitted natively protected.”

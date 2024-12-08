@@ -1,7 +1,0 @@
-Title: Endpoint Security Solution - Trend Vision One™ | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/products/endpoint-security.html
-Published Date: None
-
-Stop adversaries with a broader perspective and better context to hunt, detect, investigate, and respond to threats with EDR.
-
-Extend your defenses to email, network, cloud, mobile, identity, IoT, and OT with purpose-built native XDR, included in Trend Vision One™.

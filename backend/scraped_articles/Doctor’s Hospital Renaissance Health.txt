@@ -1,9 +1,0 @@
-Title: Doctor’s Hospital Renaissance Health
-URL: https://www.trendmicro.com/en_in/about/customer-stories/doctors-hospital-renaissance-health.html
-Published Date: None
-
-DHR Health must protect up to 5,000 endpoints per day. Since implementing Trend Micro solutions, according to Allan, DHR Health has had zero service interruptions. This translates to more secure data and a more confident IT team. Performance issues and system crashes are no longer a problem, and compliance is easier to manage because Trend Micro’s automatic data encryption ensures that data is always secure, whether it’s in transit or at rest.
-
-“My team has gotten 20 percent of its time back, allowing me to leverage their quality and move from being reactive to being proactive,” says Allan.
-
-Finally, Trend Micro’s solutions have improved visibility across DHR Health’s security landscape. “Not knowing what’s going on is the most dangerous thing. With Trend Micro and the interconnectivity of its products, I know we are protected and that the product is doing its job,” says Allan.

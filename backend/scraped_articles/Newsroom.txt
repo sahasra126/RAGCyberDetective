@@ -1,5 +1,0 @@
-Title: Newsroom
-URL: https://www.trendmicro.com/en_in/about/newsroom.html
-Published Date: None
-
-In the final weeks before November’s U.S. election, cybersecurity experts were calling October 2024 the “month of mischief”—a magnet for bad actors looking to disrupt the democratic process through AI-generated misinformation. This issue of AI Pulse looks at what can be done about deepfakes and other AI scams, and why defence-in-depth is the only way to go.

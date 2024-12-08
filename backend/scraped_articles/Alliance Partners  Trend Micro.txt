@@ -1,9 +1,0 @@
-Title: Alliance Partners | Trend Micro
-URL: https://www.trendmicro.com/en_in/partners/alliance-partners.html
-Published Date: None
-
-TESTIMONIALS What customers say "Trend Micro’s new cloud security platform represents another example of new innovation that is available via AWS Marketplace. By leveraging AWS Marketplace features like SaaS Contract API, Private Offers, and Consulting Partner Private Offers, customers can contract directly from Trend Micro or their consulting partners around the world. We are committed to empowering our shared customers with easy and fast procurement and provisioning." Read more Dave McCann, Vice President, AWS Migration, Marketplace and Control Services
-
-TESTIMONIALS What customers say "Security is an utmost priority for organisations relying on the cloud. We look forward to offering our customers Trend Micro solutions that provide end-to-end protection from one of the foremost cloud security providers in the industry." Read more Nicole Herskowitz, Senior Director of Product Marketing
-
-TESTIMONIALS What customers say "Organisations running Trend Micro’s Cloud One on Google Cloud can benefit from a single, unified platform that brings together container, workload, network, and file storage security, while leveraging Google Cloud’s global and elastic infrastructure." Read more Kevin Ichhpurani, Corp VP, Global Ecosystem at Google Cloud

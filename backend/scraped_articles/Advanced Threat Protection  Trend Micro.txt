@@ -1,5 +1,0 @@
-Title: Advanced Threat Protection | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/products/network/advanced-threat-protection.html
-Published Date: None
-
-The network XDR capability in Trend Vision One™ correlates network detection events so you can prioritise your response. Visualise the attack and see its point of entry, who else in the organisation is impacted, including managed and unmanaged devices (e.g., contractors, BYOD, IoT), and where it came from and is calling out to. This gives you a complete understanding of the attack lifecycle so you can find all the needles in the haystack.

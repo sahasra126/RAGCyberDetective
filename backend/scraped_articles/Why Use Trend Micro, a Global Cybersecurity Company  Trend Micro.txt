@@ -1,7 +1,0 @@
-Title: Why Use Trend Micro, a Global Cybersecurity Company | Trend Micro
-URL: https://www.trendmicro.com/en_in/about/why-trend-micro.html
-Published Date: None
-
-Continuously discover your ever-changing attack surface, understand and prioritise vulnerabilities, rapidly detect and respond to threats, and apply the right security at the right time to mitigate risk.
-
-Built-in security capabilities like extended detection and response (XDR), risk insights, threat assessment, and available expert services help your security operations team to be more effective with fewer resources.

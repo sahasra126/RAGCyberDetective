@@ -1,5 +1,0 @@
-Title: Cloud Developer (DevOps) with Secure Platforms | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/solutions/role/cloud-developer.html
-Published Date: None
-
-Our complete cloud security platform provides security information to the right people at the right time in the right place. Trend Micro works in your environment with pipeline integrations and APIs so you can see security issues directly in your IDE. Security doesn't need to slow you down.

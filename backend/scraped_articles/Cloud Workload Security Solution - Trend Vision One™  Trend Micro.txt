@@ -1,9 +1,0 @@
-Title: Cloud Workload Security Solution - Trend Vision One™ | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/products/endpoint-security/workload-security.html
-Published Date: None
-
-TESTIMONIALS
-
-What customers say
-
-"The biggest factor in that decision was the number of systems Trend Micro could protect. Trend Micro covers the vast majority of applications, operating systems, and servers we use. In addition, virtual patching accelerates the delivery of security protections. It was the right fit for the complexity of our landscape."

@@ -1,9 +1,0 @@
-Title: Trend Micro (IN)
-URL: https://www.trendmicro.com/en_in/about/customer-stories/fischer-homes.html
-Published Date: None
-
-Fischer Homes added Trend Vision One with XDR and Trend Micro Cloud App Security to bolster the existing deployment. With Trend Vision One in place, Fischer Homes has a complete view of anomalies, threats, and statuses across its entire IT environment.
-
-Trend Vision One – Cloud Security was also added to protect cloud workloads and lock down Fischer Homes’ AWS and Azure deployments. It also allows for geofiltering, which ensures that they know everything that exists in their inventory.
-
-“While we had security protection, we weren’t stopping actual attacks. Trend Vision One – Cloud Security scans everything and removes threats. We went from 70 to 80 alerts to just one or two,” says Riegsecker. “Purchasing via AWS Marketplace has also been very simple for us, giving us more flexibility and helping us to plan our budget better because we know exactly how much it will cost.”

@@ -1,7 +1,0 @@
-Title: Incidence Response for Cyber Insurance Carriers & Law Firms | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/services/incident-response/insurance-law.html
-Published Date: None
-
-When a data breach occurs, time is of the essence. Our dedicated IR team responds to breaches and attacks with speed, efficiency, and precision to target “patient zero” sooner and get operations back up and running with minimal downtime.
-
-Our expertise, tools, technology, and competitive rate structure are designed to help reduce the impact of the breach and the total cost of setting a triage, collecting evidence, and securing the network.

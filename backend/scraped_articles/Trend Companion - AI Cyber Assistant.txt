@@ -1,5 +1,0 @@
-Title: Trend Companion - AI Cyber Assistant
-URL: https://www.trendmicro.com/en_in/business/technologies/ai-companion.html
-Published Date: None
-
-Seamlessly integrating with Trend Vision One™, Companion eliminates the risks of task-switching and alert fatigue. Trend's generative AI and LLM capabilities prioritise security and compliance, aligning with the demands of this evolving technology. Rigorous measures give you visibility into how each model handles corporate data. Additional controls and isolation mechanisms prevent the mixing of Trend's LLM with instances and training data from other vendors.

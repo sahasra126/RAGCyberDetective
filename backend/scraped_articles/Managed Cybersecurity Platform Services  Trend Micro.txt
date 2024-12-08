@@ -1,7 +1,0 @@
-Title: Managed Cybersecurity Platform Services | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/solutions/challenges/managed-services.html
-Published Date: None
-
-Our managed services detect and respond to threats, reduce the likelihood of a breach, and optimise how your security solutions are configured and subsequently behave.
-
-Our team constantly monitors your attack surfaces, continuously evaluating critical areas of cyber risk from unknown and unmanaged assets, vulnerabilities, XDR detections, and security misconfigurations.

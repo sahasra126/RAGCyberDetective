@@ -1,7 +1,0 @@
-Title: Trend Partner Program
-URL: https://www.trendmicro.com/en_in/partners/program.html
-Published Date: None
-
-It’s easy to boost your growth and profits with our powerful cybersecurity platform – all while making your customers their most cyber resilient.
-
-The Trend Vision One unified cybersecurity platform includes a wide range of advanced threat defence techniques, extended detection and response (XDR), and integration across the IT ecosystem, including AWS, Microsoft, and Google, enabling organisations to better understand, communicate, and mitigate risk.

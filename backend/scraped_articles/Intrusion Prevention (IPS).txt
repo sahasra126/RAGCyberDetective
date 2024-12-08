@@ -1,5 +1,0 @@
-Title: Intrusion Prevention (IPS)
-URL: https://www.trendmicro.com/en_in/business/products/network/intrusion-prevention.html
-Published Date: None
-
-Trend Micro goes beyond next-gen IPS to address the evolving requirements of the most demanding data centres and enterprise networks without sacrificing security or performance. With purpose-built hardware, centralised management, and industry-leading threat intelligence, we provide a smart, optimised, and connected network security solution that integrates across all types of environments.

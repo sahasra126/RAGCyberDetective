@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const User = require("./models/User");
 const { MongoClient } = require('mongodb');
 const app = express();
+const path = require('path')
+const fs=require('fs')
 
 // Middleware setup
 //app.use(cors());
@@ -141,6 +143,33 @@ app.post('/api/scraped-files/:file_name', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: 'An error occurred while fetching file content', details: err.message });
   }
+});
+
+app.get('/api/dataset', (req, res) => {
+  //const filePath = path.join(__dirname, 'backend', 'FinalMergedDatabase.json');
+  const filePath = path.join('C:/Users/P SAHASRA/OneDrive/Desktop/alter/backend/FinalMergedDatabase.json');
+console.log('Request received for /api/dataset');
+console.log('File path:', filePath);
+
+  // Check if the JSON file exists
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).json({ error: 'File not found' });
+  }
+
+  // Read the JSON file
+  fs.readFile(filePath, 'utf-8', (err, data) => {
+    if (err) {
+      return res.status(500).json({ error: 'Failed to read the file' });
+    }
+
+    // Parse and send the JSON data
+    try {
+      const jsonData = JSON.parse(data);
+      res.json(jsonData);
+    } catch (err) {
+      return res.status(500).json({ error: 'Invalid JSON file' });
+    }
+  });
 });
 
 

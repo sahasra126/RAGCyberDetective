@@ -1,7 +1,0 @@
-Title: Cyber Insurance Coverage & Polices for Companies | Trend Micro
-URL: https://www.trendmicro.com/en_in/business/capabilities/solutions-for/cyber-insurance.html
-Published Date: None
-
-As organisations transition to remote or hybrid workforces, the digital attack surface widens immensely. This allows threat actors to target businesses with ransomware and other attacks more efficiently, demanding record-high payouts and inflicting significant business damage. According to the FBI, in 2021, the IC3 received 3,729 complaints identified as ransomware with adjusted losses of more than $49.2 million.1
-
-Once a business has fallen victim to ransomware, its options diminish greatly. Forbes reported that in 2021, more than 60% of those hit by attacks paid the ransom.2 In addition to ransom payouts, cyber insurance providers frequently cover extensive costs for incident response, forensics, and notifications to affected individuals.
