@@ -40,7 +40,7 @@ import Home from './components/Home';
 import './App.css';
 import ScrapePage from './components/ScrapePage';
 import ScrapedFiles from './components/ScrapedFiles';
-import FileDetail from './components/FileDetail';
+//import FileDetail from './components/FileDetail';
 import QAPage from './components/QAPage.js';
 import MLModel from "./components/MLModel";
 import MLModelPage from './components/MLModelPage';
@@ -73,7 +73,7 @@ function App() {
           />
           <Route path="/qa" element={<QAPage />} />
           <Route path="/" element={<Navigate to="/login" />} /> {/* Redirect to login page */}
-          <Route path="/file/:filename" element={<FileDetail />} />
+          {/* <Route path="/file/:filename" element={<FileDetail />} /> */}
           <Route path="/scraped-files" element={<ScrapedFiles />} />
           <Route path="/ml-model-page" element={<MLModelPage />} />
            <Route path="/ml-model/spacy" element={<Spacy/>} /> SpaCy route *

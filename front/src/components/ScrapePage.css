@@ -1,66 +1,66 @@
-/* General container style */
+/* ScrapePage.css */
+
 .container {
-  max-width: 1200px; /* Increased container width */
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
-  background-color: #f7f7f7;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+.url-input {
+  width: 80%; /* Increased width */
+  max-width: 500px; /* Maximum width of input box */
+  padding: 12px; /* Added padding for better spacing */
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased border-radius for a rounded look */
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
 }
 
-/* Heading Style */
+.url-input:focus {
+  border-color: #4CAF50; /* Focused border color */
+}
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 20px;
   color: #333;
-  margin-bottom: 40px;
 }
 
-/* Form style */
 form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 80%;
-  max-width: 600px; /* Maximum width for the form */
+  align-items: center;
 }
 
-/* Input field style */
-input {
-  padding: 18px;
-  font-size: 1.2rem;
+.url-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 100%; /* Full width of the form container */
-  max-width: 100%;
+  border-radius: 5px;
   box-sizing: border-box;
-  transition: border-color 0.3s ease;
-  margin: 0 auto; /* Centers the input horizontally */
-}
-
-/* Input field focus style */
-input:focus {
-  border-color: #007bff;
   outline: none;
+  transition: border-color 0.3s ease;
 }
 
-/* Button Style */
+.url-input:focus {
+  border-color: #4CAF50;
+}
+
 button {
-  padding: 18px;
-  background-color: #007bff;
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
   color: white;
-  font-size: 1.2rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 100%; /* Full width of the form container */
-  max-width: 100%;
 }
 
 button:disabled {
@@ -69,33 +69,29 @@ button:disabled {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #45a049;
 }
 
-/* Error message styling */
 .error-message {
   color: #ff0000;
-  font-size: 1.2rem;
-  margin-top: 20px;
-  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1rem;
 }
 
-/* Add responsive design for smaller screens */
-@media (max-width: 768px) {
-  .container {
-    padding: 20px;
-  }
+.scraped-text {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  h1 {
-    font-size: 2.5rem;
-  }
+.scraped-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-  form {
-    width: 100%;
-  }
-
-  input, button {
-    font-size: 1rem;
-    padding: 15px;
-  }
+.scraped-text p {
+  font-size: 1rem;
+  color: #333;
 }

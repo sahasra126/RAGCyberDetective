@@ -1,0 +1,99 @@
+
+
+
+# services:
+#   frontend:
+#     build:
+#       context: ./front
+#       dockerfile: Dockerfile
+#     ports:
+#       - "2000:2000"
+#     environment:
+#       - PORT=2000
+
+#   backend_node:
+#     build:
+#       context: ./backend
+#       dockerfile: Dockerfile
+#     ports:
+#       - "5000:5000"
+
+#   backend_flask1:
+#     build:
+#       context: ./backend
+#       dockerfile: Dockerfile.flask
+#     ports:
+#       - "4400:4400"
+
+#   # backend_flask2:
+#   #   build:
+#   #     context: ./backend
+#   #     dockerfile: Dockerfile.flask1
+#   #   ports:
+#   #     - "4300:4300"
+
+#   backend_pytorch:
+#     build:
+#       context: ./backend
+#       dockerfile: Dockerfile.flask2
+#     ports:
+#       - "4200:4200"
+
+#   backend_qamodel:
+#     build:
+#       context: ./backend
+#       dockerfile: Dockerfile.flask4
+#     ports:
+#       - "4000:4000"
+
+
+services:
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    ports:
+      - "2000:2000"
+    environment:
+      - PORT=2000
+    command: npm start
+
+  backend_node:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"
+    command: node server.js
+
+  backend_flask1:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.flask
+    ports:
+      - "4400:4400"
+    command: python app4.py
+
+  backend_flask2:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.flask1
+    ports:
+      - "4300:4300"
+    command: python app1.py
+
+  backend_pytorch:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.flask2
+    ports:
+      - "4200:4200"
+    command: python app.py
+
+  backend_qamodel:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.flask4
+    ports:
+      - "4000:4000"
+    command: python app2.py

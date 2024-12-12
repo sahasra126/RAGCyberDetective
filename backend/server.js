@@ -147,7 +147,9 @@ app.post('/api/scraped-files/:file_name', async (req, res) => {
 
 app.get('/api/dataset', (req, res) => {
   //const filePath = path.join(__dirname, 'backend', 'FinalMergedDatabase.json');
-  const filePath = path.join('C:/Users/P SAHASRA/OneDrive/Desktop/alter/backend/FinalMergedDatabase.json');
+  //const filePath = path.join('C:/Users/P SAHASRA/OneDrive/Desktop/alter/backend/CleanedQuestionsAnswers_NoDiamonds.json');
+  const filePath = path.join(__dirname, 'CleanedQuestionsAnswers_NoDiamonds.json');
+
 console.log('Request received for /api/dataset');
 console.log('File path:', filePath);
 
@@ -204,6 +206,6 @@ console.log('File path:', filePath);
 // });
 
 // Start server
-app.listen(5000, () => {
+app.listen(5000,"0.0.0.0", () => {
   console.log("Backend server is running on port 5000");
 });

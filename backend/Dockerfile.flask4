@@ -1,0 +1,30 @@
+# Use the PyTorch image as the parent image
+FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime AS base
+
+# Set the working directory
+WORKDIR /app
+
+# Copy all files from the current directory to the container's /app directory
+COPY . .
+
+# Install additional dependencies
+RUN pip install --no-cache-dir \
+    flask \
+    flask_cors \
+    pandas \
+    scikit-learn \
+    nltk \
+    transformers
+# Copy application files
+COPY qamodel /app/qamodel
+COPY CleanedQuestionsAnswersCSV.csv /app/CleanedQuestionsAnswersCSV.csv
+COPY ./app2.py /app/app.py
+
+# Download NLTK data (for BLEU scoring, if needed)
+RUN python -c "import nltk; nltk.download('punkt')"
+
+# Expose the port that the app will run on
+EXPOSE 4000
+
+# Define the command to run the app (use 'app2.py' if that’s your app’s entry point)
+CMD ["python", "app2.py"]

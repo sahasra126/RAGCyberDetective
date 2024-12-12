@@ -201,7 +201,8 @@ app = Flask(__name__)
 CORS(app, origins="http://localhost:2000", methods=["GET", "POST", "OPTIONS"], supports_credentials=True)
 
 # Load the pre-trained model and tokenizer (qamodel)
-model_dir = 'C:/Users/P SAHASRA/OneDrive/Desktop/alter/backend/qamodel'
+#model_dir = 'C:/Users/P SAHASRA/OneDrive/Desktop/alter/backend/qamodel'
+model_dir="/app/qamodel"
 tokenizer = DistilBertTokenizer.from_pretrained(model_dir)
 model = DistilBertForSequenceClassification.from_pretrained(model_dir)
 
@@ -258,4 +259,4 @@ def evaluate_model():
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(debug=True, port=4000)
+    app.run(debug=True,host="0.0.0.0", port=4000)

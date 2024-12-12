@@ -9,7 +9,8 @@ export default function ViewDataset() {
   useEffect(() => {
     const fetchDataset = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/dataset');
+        //const response = await fetch('http://backend_node:5000/api/dataset');
+       const response = await fetch('http://localhost:5000/api/dataset');
         console.log(response)
         if (!response.ok) {
           throw new Error('Error fetching dataset');

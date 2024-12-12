@@ -1,0 +1,47 @@
+# Use official Python 3.12 image
+FROM python:3.12
+
+# Set working directory
+WORKDIR /app
+
+# Install Python dependencies
+COPY requirements1.txt . 
+RUN pip install --no-cache-dir -r requirements1.txt
+
+# Copy the Flask app code
+COPY . .
+# Copy the spaCy model directory into the container
+COPY ner_model /app/ner_model
+
+# Expose the Flask app port
+EXPOSE 4400
+
+# Run the Flask application
+CMD ["python", "app4.py"]
+#Use official Python 3.12 image
+# FROM python:3.12
+
+# # Set working directory for Python apps
+# WORKDIR /app
+
+# # Install Supervisor to manage multiple Flask processes
+# RUN apt-get update && apt-get install -y supervisor
+
+# # Install Python dependencies
+# COPY requirements.txt . 
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# # Copy all the Flask app code into the container
+# COPY . .
+
+# # Copy the spaCy model directory into the container
+# COPY ner_model /app/ner_model
+# COPY qamodel /app/qamodel
+# # Copy Supervisor config to manage multiple Flask apps
+# COPY supervisord.conf /etc/supervisor/supervisord.conf
+
+# # Expose necessary ports for Flask apps (you can expose more if needed)
+# EXPOSE 4400  4000
+
+# # Run Supervisor to manage the Flask apps
+# CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]

@@ -1,0 +1,82 @@
+# # # Use an official Python runtime as a parent image for the builder stage
+# # FROM python:3.9-slim AS builder
+
+# # # Set the working directory in the container
+# # WORKDIR /app
+
+# # # Install dependencies from the requirements.txt
+# # RUN pip install --upgrade pip && pip install --no-cache-dir requests bs4 newspaper3k pymongo torch joblib scikit-learn xgboost
+
+# # # Use an official Python runtime as a parent image for the final stage
+# # FROM python:3.9-slim
+
+# # # Set the working directory in the container
+# # WORKDIR /app
+
+# # # Copy the dependencies from the builder stage
+# # COPY --from=builder /usr/local/lib/python3.9/site-packages /usr/local/lib/python3.9/site-packages
+
+# # # Copy the model files and rest of the application code
+# # COPY xgboost_model.pkl /app/
+# # COPY vectorizer.pkl /app/
+# # COPY mlb.pkl /app/
+# # COPY app.py /app/
+
+# # # Expose the port the app runs on
+# # EXPOSE 4200
+
+# # # Define the command to run the app
+# # CMD ["python", "app.py"]
+
+# # Use an official Python runtime as a parent image
+# FROM python:3.9-slim
+
+# # Set the working directory in the container
+# WORKDIR /app
+
+# # Install dependencies from the requirements.txt
+# RUN pip install --upgrade pip && pip install --no-cache-dir requests bs4 newspaper3k pymongo torch joblib scikit-learn xgboost
+
+# # Copy the model files and rest of the application code
+# COPY xgboost_model.pkl /app/
+# COPY vectorizer.pkl /app/
+# COPY mlb.pkl /app/
+# COPY app.py /app/
+
+# # Expose the port the app runs on
+# EXPOSE 4200
+
+# # Define the command to run the app
+# CMD ["python", "app.py"]
+
+# Use a prebuilt image with PyTorch and Transformers installed
+FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime AS base
+
+# Set the working directory in the container
+WORKDIR /app
+COPY . .
+# Install additional dependencies not included in the base image
+RUN pip install --upgrade pip && pip install --no-cache-dir \
+    requests \
+    bs4 \
+    flask \
+    flask_cors\
+    newspaper3k \
+    pymongo \
+    joblib \
+    scikit-learn \
+    xgboost \
+    lxml[html_clean]\
+    Werkzeug
+
+# Copy the model files and application code
+COPY xgboost_model.pkl /app/
+COPY vectorizer.pkl /app/
+COPY mlb.pkl /app/
+COPY app.py /app/
+
+# Expose the port the app runs on
+EXPOSE 4200
+
+# Define the command to run the app
+CMD ["python", "app.py"]

@@ -88,7 +88,7 @@ const QAPage = () => {
   const [question, setQuestion] = useState("");
   const [response, setResponse] = useState("");
   const [accuracy, setAccuracy] = useState(null);
-  const [bleuScore, setBleuScore] = useState(null);
+  //const [bleuScore, setBleuScore] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 

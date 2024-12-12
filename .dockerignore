@@ -1,0 +1,23 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore Dockerfile specific files
+Dockerfile.*
+
+# Ignore .git and .gitignore
+.git/
+.gitignore
+
+# Ignore any temporary or system files
+.DS_Store
+*.swp
+
+# Ignore environment files, if you use any locally
+.env
+
+# Ignore build artifacts
+/build/
+/dist/
